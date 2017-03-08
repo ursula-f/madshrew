@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'madshrew';
+    src: url('../fonts/madshrew-webfont.woff2') format('woff2'),
+         url('../fonts/madshrew-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.nav a {
+	font-family: 'madshrew';
+  color: black;
+  font-size: 36px;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.header {
+  height: 100px;
+	text-align: center;
+}
+
+
+.header h1 {
+  color: black;
+  font-size: 72px;
+  font-family: 'madshrew';
+}
+
+
+.gallery-grid {
+    background-color: white;
+		border-top: 10px solid white;
+    border-bottom: 10px solid white;
+}
+
+.thumbnail {
+	border: black 1px solid !important;
+	margin: 5px;
+}
+
+.container {
+	padding: 30px;
+}
+
+/*NAV BAR*/
+a {
+color:#000;
+font-family: madshrew;
+font-size: 38px;
+}
+
+li {
+list-style:none;
+}
+
+.panel-group {
+	margin-top: 25px;
+}
+
+
+ul.list-group {
+	margin:0px;
+  border: none !important;
+}
+
+ul.bulletlist li {
+	/*list-style:disc;*/
+}
+
+ul.list-group  li a {
+ padding:5px 0px 5px 15px;
+ text-decoration:none;
+}
+
+ul.list-group li {
+}
+
+
+ul.list-group  li a:hover, ul li a:focus {
+}
+
+h4 a:hover,
+h4 a:active,
+h4 a:focus,
+h4 .open a:hover,
+h4 .open a:active,
+h4 .open a:focus
+ {
+	text-decoration:none;
+	color:#000;
+}
+
+#collapseOne, .collapsein, .collapse {
+  border: none !important;
+}
+
+@media (min-width: 768px){
+.navbar-collapse.collapse
+	{
+    display: block!important;
+    height: auto!important;
+    overflow: visible!important;
+	  padding-left:10px;
+}
+}
+
+/********** END SIDEBAR *************/
+
+/********** NAVBAR TOGGLE *************/
+
+.navbar-toggle {
+    padding: 11px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+}
+
+/********** END NAVBAR TOGGLE *************/

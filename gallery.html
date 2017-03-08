@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 
   <head>
@@ -16,7 +16,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="./public/main.css">
 
   </head>
 
@@ -27,24 +27,27 @@
       </div>
     </div>
 
-    <div class="container">
-      <ul class="nav nav-pills" role="tablist">
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-          Gallery <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Paintings</a></li>
-            <li><a href="#">Drawings</a></li>
-            <li><a href="#">Sculptures</a></li>
-            <li><a href="#">Zines</a></li>
-          </ul>
-        </li>
-      </ul>
+    <div class="col-md-3">
+    <div id="sidenav1">
+      <div class="collapse navbar-collapse" id="sideNavbar">
+        <div class="panel-group" id="accordion">
+              <h4><a href="">map</a> </h4>
+              <h4><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"></span>collections</a></h4>
+            <div id="collapseOne" class="panel-collapse collapse">
+              <ul class="list-group">
+                <li><a href="" class="navlink">1</a></li>
+                <li><a href="" class="navlink">2</a></li>
+                <li><a href="" class="navlink">3</a></li>
+                <li><a href="" class="navlink">4</a></li>
+                <li><a href="" class="navlink">5</a></li>
+              </ul>
+            </div>
+              <h4> <a href="">shop</a> </h4>
+              <h4> <a href="">contact</a> </h4>
+        </div>
+      </div>
     </div>
+  </div>
 
 
     <div class="gallery-grid">
