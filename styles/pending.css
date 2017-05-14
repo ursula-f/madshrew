@@ -1,76 +1,46 @@
-/*.desktop, .mobile, .middle {
-	width: 100%;
+
+
+@font-face {
+    font-family: 'madshrew';
+    src: url('../fonts/madshrew-webfont.woff2') format('woff2'),
+         url('../fonts/madshrew-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-img, footer {
-  position: relative;
+html, body{
+  height: 100%;
 }
 
-.footer-text {
- text-align: center;
- font-weight: lighter;
- font-variant: small-caps;
-}
-
-@media (max-width:525px){
-  .desktop {
-		display: none;
-	}
-  .middle {
-    display: none;
-  }
-}
-
-@media (min-width: 525px){
-  .mobile {
-    display: none;
-  }
-  .desktop {
-    display: none;
-  }
-}
-
-@media (max-width: 700px){
-  .mobile {
-    display: none;
-  }
-  .middle {
-    display: none;
-  }
-}*/
-
-img.desktop, .mobile {
-  /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-
-
-  /* Set up proportionate scaling */
+div.wrapper {
   width: 100%;
-  height: auto;
-
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
+  height: 100%;
 }
 
-@media screen and (min-width: 450px) {
-  img.desktop {
-    left: 50%;
-    margin-left: -512px;
-  }
-  img.mobile {
-    display: none;
-  }
+body {
+			background-image: url("/Users/user/Desktop/madshrew/images/pending/coming_soon2.jpg");
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+      -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-@media screen and (max-width: 500px) {
-  img.desktop {
-    display: none;
-  }
-  img.mobile {
-    min-width: 500px;
-    max-width: 500px;
-  }
+footer {
+  font-family: 'madshrew';
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    body {
+      background-image: url("/Users/user/Desktop/madshrew/images/pending/coming_soon2.jpg");
+      width: 100%;
+      background-attachment: fixed;   }
 }
